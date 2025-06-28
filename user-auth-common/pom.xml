@@ -4,8 +4,8 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>com.example</groupId>                <!-- Match your root project -->
-        <artifactId>authentication-service</artifactId>               <!-- Root project artifactId -->
+        <groupId>com.example</groupId>
+        <artifactId>authentication-service</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
