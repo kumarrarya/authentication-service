@@ -21,9 +21,9 @@
     <description>Parent project for user-auth modules</description>
 
     <modules>
-        <module>user-auth-common</module>
         <module>user-auth-main</module>
         <module>user-auth-service</module>
+        <module>user-auth-repository</module>
     </modules>
 
     <properties>
@@ -42,7 +42,9 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
+
         </dependencies>
+
     </dependencyManagement>
 
     <build>
